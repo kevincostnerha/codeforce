@@ -1,0 +1,15 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" >
+    <aura:attribute name="textFromEvent" type="String" access="global" />
+    <lightning:card title="Frequently Asked Questions" iconName="standard:person_language">
+        <div class="slds-box">
+            <div class=" slds-grid slds-gutters slds-align_absolute-center">
+                {!v.textFromEvent}
+        	</div>
+            <div class=" slds-grid slds-gutters slds-align_absolute-center">
+                <c:auratest ontxtChange = "{!c.lwcEventHandler}" />      
+        	</div>
+        </div>
+    </lightning:card>
+    
+    
+</aura:component>

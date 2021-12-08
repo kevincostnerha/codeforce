@@ -1,0 +1,35 @@
+<!--
+    Left: Text + Button (that leads to another page)
+    Right: Image
+-->
+
+<template>
+
+    <div class="slds-grid slds-gutters slds-theme_default">
+        <div class="slds-col slds-size_1-of-2 slds-align_absolute-center">
+
+            <span>
+                <div class="contactHeader slds-align_absolute-center">
+                    <p>Having trouble picking the appropriate storage unit?</p>
+                </div>
+                <div class="contactContent slds-align_absolute-center">
+                    <p>We'll help you find the right size storage unit so you can make sure you're getting the most for your money.</p>
+                </div>
+                <br>
+                <br>
+
+                <div class="contactButton slds-align_absolute-center">
+                    <lightning-button variant="brand" label="Go To Contact Page" title="Primary action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+                </div>
+            </span>
+            
+        </div>
+        <div class="slds-col slds-size_1-of-2 slds-align_absolute-center">
+          <span>
+            <img src={orange}>
+          </span>
+        </div>
+      </div>
+      
+
+</template>
