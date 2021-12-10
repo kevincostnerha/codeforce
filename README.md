@@ -23,6 +23,6 @@ To-Do List
   ## Usage
 
   ## Contributors
-  Kevin Ha, Elvis MAck, Austin Ward
+  Kevin Ha, Elvis Mack, Austin Ward
 
   ## License
