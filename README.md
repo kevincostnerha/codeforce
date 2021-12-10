@@ -1,28 +1,18 @@
-# Rent-A-Space
+# Salesforce DX Project: Next Steps
 
-## Project Description
+Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
-Rent-A-Space is a web appplication that leverages commmunities, service cloud, the lightning aura framework, lightning web components, 
+## How Do You Plan to Deploy Your Changes?
 
-## Technologies Used
+Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
 
-Apex, Apex Testing, HTML, CSS, JavaScript, UI Customization, Scrumban, Apex Triggers, Lightning Aura Component Framework, Experience Cloud, Lightning Web Components, and Package Based Development
+## Configure Your Salesforce DX Project
 
-## Features
+The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
 
+## Read All About It
 
-
-To-Do List
-
-## Geting Started
-1. git clone [HTTPS]
-2. Open the folder in VS Code
-3. CTRL + SHIFT + P - Click "Authorize an Org" and choose a Salesforce Org to authorize.
-4. CTRL + SHIFT + P - Click "Deploy This Source to Org" to deploy code to an Org.
-  
-  ## Usage
-
-  ## Contributors
-  Kevin Ha, Elvis Mack, Austin Ward
-
-  ## License
+- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
+- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
+- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
+- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
