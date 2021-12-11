@@ -1,6 +1,4 @@
-<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,
-flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,
-force:lightningQuickAction"  controller="ContactsController" access="global">
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction"  controller="ContactsController" access="global">
    
 
     <aura:attribute name="contactRows" type="Object[]"/>
@@ -26,7 +24,6 @@ force:lightningQuickAction"  controller="ContactsController" access="global">
                 </aura:iteration>
             </tbody>
         </table> 
-        <br>
         <c:pickAccount onloadappevent="{!c.dothis}" />
  	</div>
 </aura:component>
