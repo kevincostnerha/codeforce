@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amenities__c</fullName>
+    <externalId>false</externalId>
+    <label>Amenities</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Heated</fullName>
+                <default>false</default>
+                <label>Heated</label>
+            </value>
+            <value>
+                <fullName>Indoor</fullName>
+                <default>false</default>
+                <label>Indoor</label>
+            </value>
+            <value>
+                <fullName>Maximum-Security</fullName>
+                <default>false</default>
+                <label>Maximum-Security</label>
+            </value>
+            <value>
+                <fullName>24/7 Access</fullName>
+                <default>false</default>
+                <label>24/7 Access</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

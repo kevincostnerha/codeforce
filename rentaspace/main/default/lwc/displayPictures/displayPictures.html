@@ -1,0 +1,19 @@
+<template>
+    <div class="slds-box slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none">
+        <lightning-layout multiplerows="true">
+            <template for:each={wiredStorage.data} for:item="sto">
+                <div key={sto.id}>
+                <lightning-layout-item flexibility="auto" padding="around-small">
+                        <div class="custom-box slds-box slds-p-around_medium slds-text-align_center">
+                            <img src={fivebyfive}>
+                            <lightning-card>
+                                <p class="title slds-align_absolute-center">5x5</p>
+                                <lightning-button label="More Info" onclick={OnClick}></lightning-button>
+                            </lightning-card>
+                        </div>
+                    </lightning-layout-item>
+                </div>
+            </template>
+        </lightning-layout>
+    </div>
+</template>
