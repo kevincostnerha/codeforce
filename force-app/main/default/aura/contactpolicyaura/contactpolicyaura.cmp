@@ -1,0 +1,13 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" >
+    <aura:attribute name="textFromEvent" type="String" access="global" />
+    <lightning:card title="Items Not Allowed" iconName="standard:cancel_checkout">
+        <div class="slds-box">
+            <div class=" slds-grid slds-gutters slds-align_absolute-center">
+                {!v.textFromEvent}
+                <c:auratest ontxtChange = "{!c.lwcEventHandler}" />
+        	</div>
+        </div>
+    </lightning:card>
+    
+    
+</aura:component>

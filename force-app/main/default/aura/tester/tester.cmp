@@ -1,0 +1,32 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,
+flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,
+force:lightningQuickAction"  controller="ContactsController" access="global">
+   
+
+    <aura:attribute name="contactRows" type="Object[]"/>
+    <aura:attribute name="units" type="Storage_Unit__c"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <div class="container">
+        <p>
+        	<b> List of Accounts </b>
+        </p>
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th><strong> Unit </strong></th>
+                    <th> <strong>  Creation ID </strong> </th>
+                </tr>
+            </thead>
+            <tbody>
+                <aura:iteration var="cell" items="{!v.contactRows}">
+                    <tr>
+                        <td> <a href="{! '/'+cell.Id}"> {!cell.Name} </a> </td>
+                        <td> {!cell.CreatedById}  </td>
+                    </tr>
+                </aura:iteration>
+            </tbody>
+        </table> 
+        <br>
+        <c:pickAccount onloadappevent="{!c.dothis}" />
+ 	</div>
+</aura:component>
