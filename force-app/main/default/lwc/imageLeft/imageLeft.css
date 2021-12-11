@@ -1,0 +1,31 @@
+.body {
+    height: 100%;
+    margin: 0;
+}
+
+:host {
+    --sds-c-button-brand-color-background: white;
+    --sds-c-button-brand-color-border: black;
+    --sds-c-button-radius-border: 20px;
+    --sds-c-button-sizing-border: 2px;
+    --sds-c-button-brand-text-color: black;
+  }
+
+.contactHeader {
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    max-width: 27ch;
+    font-family: Helvetica, sans-serif;
+}
+
+.contactContent {
+    font-size: 12px;
+    color: #000000;
+}
+
+
+img {
+    max-width: 500px;
+    height: auto;
+}

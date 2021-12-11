@@ -2,14 +2,11 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true,
-      "package": "newPack",
-      "versionName": "Version 1.0",
-      "versionNumber": "1.0.0.NEXT"
+      "default": true
     }
   ],
-  "name": "Project2",
-  "namespace": "bill",
+  "name": "Project02",
+  "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "52.0"
 }

@@ -1,0 +1,20 @@
+.valueHeader {
+    font-size: 30px;
+    color: #FFF;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    background-color: transparent;
+}
+
+.valueContent {
+    font-size: 12px;
+    color: #000000;
+}
+
+.bg { 
+    /* The image used */ background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/df/Family_Portrait.jpg"); 
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
