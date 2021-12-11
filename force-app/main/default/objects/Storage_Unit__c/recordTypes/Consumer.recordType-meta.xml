@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consumer</fullName>
+    <active>true</active>
+    <label>Consumer</label>
+    <picklistValues>
+        <picklist>Amenities__c</picklist>
+        <values>
+            <fullName>24%2F7 Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indoor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
