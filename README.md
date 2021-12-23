@@ -28,7 +28,7 @@ To-Do List
 Storage Unit page from which
 ![image](https://user-images.githubusercontent.com/29414102/147257944-c28e3d50-10b6-4d4d-bb41-c7755b161fcc.png)
 
-Account Unit page from which
+Account Unit page from which an Aura Component communicates with a Lightning Web Component to show the Storage Unit Custom Objects associated with the current User. Additionally it offers a component to view Storage Unit Location Objects in aggregate.
 ![image](https://user-images.githubusercontent.com/29414102/147258004-ef5f8c36-4728-4b2f-889d-3d4b20cb8217.png)
 
 Contact Us page from which users will be able to access information regarding how to contact Rent A Space. Furthermore they'll also be able to contact Rent A Space via a Case to Web form.
