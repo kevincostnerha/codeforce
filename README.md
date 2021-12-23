@@ -18,7 +18,6 @@ Apex, Apex Testing, HTML, CSS, JavaScript, UI Customization, Scrumban, Apex Trig
 - Service Cloud Features such as: Case Assignment Rules, Case Auto-Response Rules, and Case Escalation Rules
 
 
-To-Do List
 
 ## Geting Started
 1. git clone [HTTPS]
