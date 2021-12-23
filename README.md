@@ -15,6 +15,7 @@ Apex, Apex Testing, HTML, CSS, JavaScript, UI Customization, Scrumban, Apex Trig
 - Apex Trigger that created a string out of size proportion.
 - Apex Trigger to enforce an Account only being able to be active if it has a storage account associated with it.
 - Lightning cards to group relevant information.
+- Aura Components that interact with Lightning Web Components
 - Service Cloud Features such as: Case Assignment Rules, Case Auto-Response Rules, and Case Escalation Rules
 
 
