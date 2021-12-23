@@ -30,7 +30,7 @@ Apex, Apex Testing, HTML, CSS, JavaScript, UI Customization, Scrumban, Apex Trig
 4. CTRL + SHIFT + P - Click "Deploy This Source to Org" to deploy code to an Org.
   
   ## Usage
-  Landing page from which users will be able to navigate to other pages.
+  Landing page from which users will be able to navigate to other pages. Using the Ember theming we designed it in a way to make it more accessible using a combination of a navigation menu, custom buttons, and a search bar. As well as a user option for users to login to check on their information.
 ![image](https://user-images.githubusercontent.com/29414102/147257825-f40b0940-709d-475c-be9f-ac56f3c54a21.png)
 
 Storage Unit page from which
