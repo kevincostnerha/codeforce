@@ -4,6 +4,9 @@
 
 Rent-A-Space is a web appplication that leverages commmunities, service cloud, the lightning aura framework and lightning web components to offer an ultra-flexible platform in which manages a Storage Unit Company. Through a variety of custom functionalities and hand-crafted components, Rent-A-Space efficiently manages Storage Units and the Customer Accounts associated with them. Our Experience Site is a front-facing interface for the customer to personalize their order with ease. Simultaneously, the back-end is built for System Administration and Company Management to maximize service to clientele. 
 
+![image](https://user-images.githubusercontent.com/29414102/147262867-fbe59d4c-113a-4b32-bf2d-0bc6b5f6970d.png)
+
+
 ## Technologies Used
 
 Apex, Apex Testing, HTML, CSS, JavaScript, UI Customization, Scrumban, Apex Triggers, Lightning Aura Component Framework, Experience Cloud, Lightning Web Components, and Package Based Development
