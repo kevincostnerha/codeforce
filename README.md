@@ -31,7 +31,7 @@ Apex, Apex Testing, HTML, CSS, JavaScript, UI Customization, Scrumban, Apex Trig
   Landing page from which users will be able to navigate to other pages. Using the Ember theming we designed it in a way to make it more accessible using a combination of a navigation menu, custom buttons, and a search bar. As well as a user option for users to login to check on their information.
 ![image](https://user-images.githubusercontent.com/29414102/147257825-f40b0940-709d-475c-be9f-ac56f3c54a21.png)
 
-Storage Unit page from which
+Storage Unit page from which the user can find more information regarding the storage unit they're interested in.
 ![image](https://user-images.githubusercontent.com/29414102/147257944-c28e3d50-10b6-4d4d-bb41-c7755b161fcc.png)
 
 Account Unit page from which an Aura Component communicates with a Lightning Web Component to show the Storage Unit Custom Objects associated with the current User. Additionally it offers a component to view Storage Unit Location Objects in aggregate.
