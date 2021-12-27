@@ -12,7 +12,7 @@ Apex, Apex Testing, HTML, CSS, JavaScript, UI Customization, Scrumban, Apex Trig
 ## Features
 
 - Ability to create a case via web.
-- Apex Trigger that will Case Origin set to Web when created via the application on site.
+- Apex Trigger that will set Case Origin to Web when created via the application on site.
 - Apex Trigger that created a string out of size proportion.
 - Apex Trigger to enforce an Account only being able to be active if it has a storage account associated with it.
 - Lightning cards to group relevant information.
